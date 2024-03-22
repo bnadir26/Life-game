@@ -16,7 +16,7 @@ def creer_tableau(n, m):
         for i in range(m):
             M.append(0)
         T.append(M)
-    print(T) 
+    return T 
 
 def etape_suivante(T):
     ''' 
